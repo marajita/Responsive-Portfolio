@@ -31,7 +31,7 @@ body {
 hr {
     opacity: 0.2;
     margin-top: 4px;
-    width: 914px;
+    width: 100%;
     background: #cccccc;
     padding: 1px;
 }
@@ -82,6 +82,12 @@ a:active {
 img {       /* for About page image*/
     float: left;
     padding: 0px 20px 20px 20px;}
+
+#myPic {
+    width: 20%;
+    height: auto;
+
+}
 
 h2 {
     font-family: 'Georgia', Times, "Times New Roman", serif;
@@ -263,11 +269,7 @@ input[type=text] {
     .navlinks{     
         width: 26%;
         font-size: 18Px;
-    }
-
-    hr{
-        width: 900px;;
-    }   
+    } 
 
 }
  @media screen and (max-width: 768px){  
@@ -301,11 +303,7 @@ input[type=text] {
     .navlinks{     
         width: 37%;
         font-size: 18PX;
-    }
-
-    hr{
-        width: 645px;;
-    }   
+    } 
 
 }
 
@@ -324,6 +322,12 @@ input[type=text] {
         height: 150px;
         width: 100%;
    }
+
+   #myPic {
+    width: 85%;
+    height: auto;
+
+}
    .headName{
     width: 96%;
     height: 50px;
@@ -341,11 +345,6 @@ input[type=text] {
         padding-bottom: 60px;
     }
 
-    img {
-
-        margin-left: 150px;
-
-    }
     /* to make games appear vertically */
     .image{
         display: block;
@@ -425,9 +424,9 @@ input[type=text] {
     padding: 10px 20px;
     }
 
-
-    hr{
-        width: 575px;
-    }
+    .container-item{
+    display: flex;
+    height: 600px;
+}
 
 }
